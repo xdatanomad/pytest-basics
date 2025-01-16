@@ -2,6 +2,7 @@ import pytest
 from gitallica.core import Gitallica
 
 @pytest.mark.basic
+@pytest.mark.red
 def test_add():
     g = Gitallica()
     assert g.add(1, 2) == 3
@@ -9,6 +10,7 @@ def test_add():
     assert g.add(-1, -1) == -2
 
 @pytest.mark.advanced
+@pytest.mark.red
 def test_subtract():
     g = Gitallica()
     assert g.subtract(1, 2) == -1
