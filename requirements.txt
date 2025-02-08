@@ -1,4 +1,7 @@
 setuptools
 pytest
+pytest-order
 pytz
 tinydb
+pydantic
+pydantic-settings
