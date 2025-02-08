@@ -2,9 +2,12 @@
 
 A project to show how the basics for pytest (and setup.py) work!
 
-### Notes
+### How It Works Notes
 
-- Project has a primary python package called `gitallica`.
+- Both `tests/` and `gitallica/` are python packages with `__init__.py` files.
+- Must have a `pytest.ini` file to set the `pythonpath` config.
+- `pythonpath` is set to the root of the project(ie: `.`).
+- **Optional:** `setup.py` is used to install the package in editable mode.
 
 **marks:**
 - Pay attention to `test_core.py` marks.
