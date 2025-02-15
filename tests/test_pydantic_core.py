@@ -1,6 +1,6 @@
 import pytest
 
-from gitallica.pydantic_core import User, AdultUser
+from gitallica.pydantic_module import User, AdultUser
 
 
 def test_user_creation():
